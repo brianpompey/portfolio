@@ -28,22 +28,24 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
         <h2>Now Let's Look at Some Projects!</h2>
-        <Card 
-          title="Twitter Clone"
-          text="Rails project with a ReactJS Backend"
-          image={ twittercon } />
-        <Card 
-          title="Lebron James"
-          text="King James"
-          image={ bron } />
-        <Card 
-          title="Kobe Bryant"
-          text="Kobe!!"
-          image={ kobe } />
-        <Card 
-          title="Michael Jordan"
-          text="MJ"
-          image={ mj } />
+        <div className="CardGroup">
+          <Card 
+            title="Twitter Clone"
+            text="Rails project with a ReactJS Backend"
+            image={ twittercon } />
+          <Card 
+            title="Lebron James"
+            text="King James"
+            image={ bron } />
+          <Card 
+            title="Kobe Bryant"
+            text="Kobe!!"
+            image={ kobe } />
+          <Card 
+            title="Michael Jordan"
+            text="MJ"
+            image={ mj } />
+        </div>
     </div>
   </Layout>
 )
