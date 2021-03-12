@@ -6,11 +6,12 @@ import logo from '../images/brian-logo.png'
 const Header = ({ siteTitle }) => (
   <div className="Header">
     <div className="HeaderGroup">
-      <Link to="/"><img src={logo} width="30" /></Link>
-      <Link to="/lebron">Lebron James</Link>
-      <Link to="/kobe">Kobe Bryant</Link>
-      <Link to="/jordan">Michael Jordan</Link>
-      <Link to="/instagram"><button>Instagram</button></Link>
+      <Link to="/"><img src={logo} width="30" alt="brian-logo" /></Link>
+      <Link to="/about">About Me</Link>
+      <Link to="/resume">My Resume</Link>
+      <Link to="/blogs">Blog Posts</Link>
+      <Link to="/github">Github Page</Link>
+      <Link to="/contact"><button>Hire ME</button></Link>
     </div>
   </div>
 )
