@@ -1,5 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import twittercon from "../images/twittercon.jpg"
+import bron from "../images/Lebron_James.jpg"
+import kobe from "../images/Kobe.jpg"
+import mj from "../images/michael-jordan.jpg"
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -20,13 +25,25 @@ const IndexPage = () => (
           </path>
         </svg>
       </div>
-      <div className="Cards">
+    </div>
+    <div className="Cards">
         <h2>Now Let's Look at Some Projects!</h2>
         <Card 
           title="Twitter Clone"
           text="Rails project with a ReactJS Backend"
-          image={require('../images/twittercon.jpg')}/>
-      </div>
+          image={ twittercon } />
+        <Card 
+          title="Lebron James"
+          text="King James"
+          image={ bron } />
+        <Card 
+          title="Kobe Bryant"
+          text="Kobe!!"
+          image={ kobe } />
+        <Card 
+          title="Michael Jordan"
+          text="MJ"
+          image={ mj } />
     </div>
   </Layout>
 )

@@ -1,9 +1,11 @@
 import React from 'react'
+import './Card.css'
 
-const Card = () => (
+const Card = props => (
     <div className="Card">
-        <h3>Twitter Clone</h3>
-        <p>Rails project with a ReactJS Backend</p>
+        <img src={props.image} />
+        <h3>{props.title}</h3>
+        <p>{props.text}</p>
     </div>
 )
 
