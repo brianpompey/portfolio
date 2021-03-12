@@ -29,7 +29,17 @@ a {
 
 .Indexer p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (max-width: 640px) {
+  .IndexerContent {
+    padding: 100px 20px;
+  }
+
+  .Indexer p {
+    font-size: 14px;
+  }
 }
