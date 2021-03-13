@@ -47,7 +47,7 @@ const IndexPage = () => (
             image={ mj } />
         </div>
     </div>
-  </Layout>
+    </Layout>
 )
 
 export default IndexPage
