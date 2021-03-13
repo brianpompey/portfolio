@@ -50,6 +50,10 @@
     transform: translateY(-8px);
 }
 
+.Header a:first-child img {
+    border-radius: 50%;
+}
+
 @media (max-width: 640px) {
     .Header {
         padding: 15px 0;
