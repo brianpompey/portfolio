@@ -4,11 +4,13 @@ import twittercon from "../images/twittercon.jpg"
 import bron from "../images/Lebron_James.jpg"
 import kobe from "../images/Kobe.jpg"
 import mj from "../images/michael-jordan.jpg"
+import staticdata from '../../staticdata.json'
 
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/Card"
+import Cell from "../components/Cell"
 
 const IndexPage = () => (
   <Layout>
@@ -47,6 +49,9 @@ const IndexPage = () => (
             image={ mj } />
         </div>
     </div>
+    {staticdata.cells.map(cell => (
+      <Cell title={cell.title} image={cell.image} />
+    ))}
     </Layout>
 )
 
