@@ -39,7 +39,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Indexer">
       <div className="IndexerContent">
-        <p>Welcome to my portfolio page.</p>
+        <p>Welcome to my portfolio page!</p>
         <p>This is where I get to showcase all the</p>
         <p>Wonderful work that I have been doing!</p>
 
