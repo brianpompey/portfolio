@@ -12,6 +12,7 @@ import Helmet from 'react-helmet'
 
 import Header from "./header"
 import "./layout.css"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,6 +22,14 @@ const Layout = ({ children }) => {
           title
           description
           keywords
+        }
+      }
+      allContentfulLink {
+        edges {
+          node {
+            title
+            url
+          }
         }
       }
     }
@@ -36,15 +45,9 @@ const Layout = ({ children }) => {
         ]}/>
         <Header/>
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
+        <Footer data={data}>Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+          <a href="https://www.gatsbyjs.com">Gatsby</a></Footer>
     </>
   )
 }
