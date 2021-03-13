@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: `Brian Pompey Portfolio`,
-    description: `Official Portfolio Page`,
+    description: 'Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.',
+    keywords: 'react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin',
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: 'bstqes6ysrtl',
+        accessToken: 'E9igeXksYmihGx5Jer8bIOmYwvgnPF9NcKnCe9GTdL8',
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
