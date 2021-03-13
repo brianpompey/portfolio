@@ -1,0 +1,41 @@
+.Footer {
+    background: #F1F3F5;
+    padding: 50px 0;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.FooterText {
+    font-size: 24px;
+    font-weight: 600;
+    color: #486791;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.FooterLinks {
+    width: 500px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.FooterLinks a {
+    color: #5334F5;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0;
+    transition: 1s;
+}
+
+.FooterLinks a:hover {
+    color: black;
+}
+
+.Copywright {
+    color: #486791;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
