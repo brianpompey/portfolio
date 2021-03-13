@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
         ]}/>
         <Header/>
         <main>{children}</main>
-        <Footer data={data}>Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © {new Date().getFullYear()}, Built with
+        <Footer data={data}> © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a></Footer>
     </>
