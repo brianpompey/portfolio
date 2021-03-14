@@ -33,11 +33,11 @@ class Header extends React.Component {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <Link className="Portrait" to="/"><img src={logo} width="30" alt="brian-logo" /></Link>
-          <Link to="/about">About Me</Link>
+          <Link to="/about/">About Me</Link>
           <Link to="/resume">My Resume</Link>
           <Link to="/blogs">Blog Posts</Link>
-          <Link to="/github">Github Page</Link>
-          <Link to="/contact"><button>Hire ME</button></Link>
+          <a href="https://github.com/brianpompey">Github Page</a>
+          <Link to="/contact/"><button>Hire ME</button></Link>
         </div>
       </div>
     )
