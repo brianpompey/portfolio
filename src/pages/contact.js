@@ -5,13 +5,12 @@ import Layout from "../components/layout"
 import Contact from "../components/Contact"
 import SEO from "../components/seo"
 
-const Contact = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    {Contact}
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default Contact
+export default ContactPage;
