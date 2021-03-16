@@ -50,6 +50,10 @@ a {
   }
 }
 
+.IndexRestofPage {
+  background-color: #f3f4f5;
+}
+
 
 .Cards h2 {
   margin: 50px 20px;
@@ -62,7 +66,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.CardGroup {
+.CardGroup-1 {
   margin: 50px 40px 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -71,13 +75,42 @@ a {
 }
 
 @media (max-width: 1060px) {
-  .CardGroup {
+  .CardGroup-1 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 720px) {
-  .CardGroup {
+  .CardGroup-1 {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.CardGroup-2 {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+hr.rounded {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 3px dashed #1A85FD;
 }
