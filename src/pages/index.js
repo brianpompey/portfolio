@@ -20,7 +20,7 @@ const IndexPage = () => (
         <p>This is where I get to showcase all the</p>
         <p>Wonderful work that I have been doing!</p>
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="172" viewBox="0 0 100% 172">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 100% 172">
           <path fill="#f3f4f5" fill-opacity="1" >
           <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s" values="M0,128L48,117.3C96,107,192,85,288,112C384,139,480,213,576,208C672,203,768,117,864,80C960,43,1056,53,1152,58.7C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
           
