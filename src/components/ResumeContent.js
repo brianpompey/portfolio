@@ -4,7 +4,9 @@ import './ResumeContent.css'
 
 const Content = ({data}) => (
     <div className="content">
-        <img src={data.allContentfulResume.edges.node.resume.file.url} alt="brian pompey resume"/>
+        {data.allContentfulResume.edges.map(edge=>(
+            <embed src={edge.node.resume.file.url} alt="brian pompey resume"/>
+        ))}
     </div>
 )
 
