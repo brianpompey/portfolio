@@ -13,7 +13,7 @@ const Contact = () => (
                 <p>Email: brianthescholar@gmail.com</p>
                 <p>Alt Email: bpompey123@gmail.com</p>
                 <p>Phone: (718) 578-8791</p>
-                <p> LinkedIN Page: <a href="https://www.linkedin.com/in/brian-pompey-826a58165/" target="_blank">Brian Pompey LinkedIN</a></p>
+                <p> LinkedIN Page: <a href="https://www.linkedin.com/in/brian-pompey-826a58165/" target="_blank" rel="noreferrer">Brian Pompey LinkedIN</a></p>
             </div>
             
         </div>
