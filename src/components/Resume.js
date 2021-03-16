@@ -7,7 +7,9 @@ import Layout from './layout';
 const Resume = () => (
     <Layout>
         <div className="ResumeGroup">
-            <p>Resume</p>
+            <div className="ResumeContent">
+                <p>Resume</p>
+            </div>
         </div>
     </Layout>
 )
