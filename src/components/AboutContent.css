@@ -1,3 +1,8 @@
 .content {
-    color: honeydew;
+    color: rgb(237, 248, 237);
+}
+
+.content p {
+    font-size: 15px;
+    line-height: 1.5;
 }
