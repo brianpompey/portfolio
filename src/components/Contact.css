@@ -6,11 +6,16 @@ body {
     line-height: 1.3;
   }
   
-  a {
+  .ContactGroup a {
     color: seashell;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
   }
+
+  .ContactGroup a:hover {
+    color: gold;
+}
   
   .ContactGroup {
     background: url('../images/manhattan-nyc-skyline-twilight-susan-candelario.jpg');
