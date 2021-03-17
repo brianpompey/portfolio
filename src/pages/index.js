@@ -44,6 +44,7 @@ const IndexPage = () => (
             <Card 
               title="Twitter Clone"
               text="Rails project with a ReactJS Backend"
+              url="https://github.com/brianpompey/social_media_app"
               image={ twittercon } />
             <Card 
               title="Lebron James"
