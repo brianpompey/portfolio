@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import twittercon from "../images/twittercon.jpg"
-import bron from "../images/Lebron_James.jpg"
-import kobe from "../images/Kobe.jpg"
-import mj from "../images/michael-jordan.jpg"
+import covid from "../images/covid.jpg"
+import knicks from "../images/knickstape.jpg"
+import food1 from "../images/food1.jpg"
+import food2 from "../images/food2.jpg"
 
 
 import Layout from "../components/layout"
@@ -42,42 +43,34 @@ const IndexPage = () => (
           <h3>Bootcamp Projects</h3>
           <div className="CardGroup-1">
             <Card 
-              title="Twitter Clone"
-              text="Rails project with a ReactJS Backend"
-              url="https://github.com/brianpompey/social_media_app"
-              image={ twittercon } />
+              title="Quarantine Conference"
+              text="Rails frontend/backend project"
+              url="https://github.com/brianpompey/QuarantineConference2"
+              image={ covid } />
             <Card 
-              title="Lebron James"
-              text="King James"
-              image={ bron } />
+              title="KnicksTape"
+              text="Plain Jane Ruby"
+              url="https://github.com/brianpompey/knicks-tape"
+              image={ knicks } />
             <Card 
-              title="Kobe Bryant"
-              text="Kobe!!"
-              image={ kobe } />
+              title="WhatToEatToday"
+              text="Rails Backend/VanillaJS Frontend"
+              url="https://github.com/brianpompey/WhatToEatToday"
+              image={ food1 } />
             <Card 
-              title="Michael Jordan"
-              text="MJ"
-              image={ mj } />
+              title="React-Eat-Today"
+              text="Similiar to VanillaJS project with React mods"
+              url="https://github.com/brianpompey/react-eat-frontend"
+              image={ food2 } />
           </div>
           <hr class="rounded" />
           <h3>Personal Projects</h3>
           <div className="CardGroup-2">
             <Card 
               title="Twitter Clone"
-              text="Rails project with a ReactJS Backend"
+              text="Rails project with a ReactJS Frontend"
+              url="https://github.com/brianpompey/social_media_app"
               image={ twittercon } />
-              <Card 
-              title="Lebron James"
-              text="King James"
-              image={ bron } />
-            <Card 
-              title="Kobe Bryant"
-              text="Kobe!!"
-              image={ kobe } />
-            <Card 
-              title="Michael Jordan"
-              text="MJ"
-              image={ mj } />
           </div>
       </div>
     </div>
