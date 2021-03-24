@@ -5,6 +5,7 @@ import covid from "../images/covid.jpg"
 import knicks from "../images/knickstape.jpg"
 import food1 from "../images/food1.jpg"
 import food2 from "../images/food2.jpg"
+import calendar from "../images/calendar.jpg"
 
 
 import Layout from "../components/layout"
@@ -71,6 +72,11 @@ const IndexPage = () => (
               text="Rails project with a ReactJS Frontend"
               url="https://github.com/brianpompey/social_media_app"
               image={ twittercon } />
+            <Card 
+              title="JS Calendar"
+              text="Calendar and scheduler with VanillaJS"
+              url="https://github.com/brianpompey/simple-js-calendar"
+              image={ calendar } />
           </div>
       </div>
     </div>
