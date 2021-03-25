@@ -6,6 +6,7 @@ import knicks from "../images/knickstape.jpg"
 import food1 from "../images/food1.jpg"
 import food2 from "../images/food2.jpg"
 import calendar from "../images/calendar.jpg"
+import weather from "../images/weathericon.png"
 
 
 import Layout from "../components/layout"
@@ -77,6 +78,11 @@ const IndexPage = () => (
               text="Calendar and scheduler with VanillaJS"
               url="https://github.com/brianpompey/simple-js-calendar"
               image={ calendar } />
+            <Card 
+              title="JS Weather App"
+              text="Weather App built with VanillaJS"
+              url="https://github.com/brianpompey/jsweatherapp"
+              image={ weather } />
           </div>
       </div>
     </div>
