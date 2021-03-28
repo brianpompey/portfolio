@@ -76,12 +76,12 @@ const IndexPage = () => (
             <Card 
               title="JS Calendar"
               text="Calendar and scheduler with VanillaJS"
-              url="https://github.com/brianpompey/simple-js-calendar"
+              url="https://brianpompey.github.io/simple-js-calendar/"
               image={ calendar } />
             <Card 
               title="JS Weather App"
               text="Weather App built with VanillaJS"
-              url="https://github.com/brianpompey/jsweatherapp"
+              url="https://brianpompey.github.io/jsweatherapp/"
               image={ weather } />
           </div>
       </div>
