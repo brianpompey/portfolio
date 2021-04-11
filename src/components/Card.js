@@ -3,9 +3,9 @@ import './Card.css'
 
 const Card = props => (
     <div className="Card">
-        <a href={props.url} target="_blank" rel="noreferrer"><img src={props.image} alt="card-pic"/></a>
+        <a href={props.url} target="_blank" rel="noreferrer"><img src={props.image} alt="card-pic"/>
         <h3>{props.title}</h3>
-        <p>{props.text}</p>
+        <p>{props.text}</p></a>
     </div>
 )
 
