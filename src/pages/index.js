@@ -7,6 +7,7 @@ import food1 from "../images/food1.jpg"
 import food2 from "../images/food2.jpg"
 import calendar from "../images/calendar.jpg"
 import weather from "../images/weathericon.png"
+import smoke from "../images/smoke.jpg"
 
 
 import Layout from "../components/layout"
@@ -83,6 +84,12 @@ const IndexPage = () => (
               text="Weather App built with VanillaJS"
               url="https://brianpompey.github.io/jsweatherapp/"
               image={ weather } />
+            <Card 
+              title="SmokeShow"
+              text="Ecommerce App built with ReactJS"
+              url="https://quizzical-goodall-e6e41a.netlify.app/"
+              image={ smoke } />
+            
           </div>
       </div>
     </div>
