@@ -19,3 +19,16 @@
 .Card:hover img {
     transform: translateY(-20px);
 }
+
+.Card h1 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Card p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
