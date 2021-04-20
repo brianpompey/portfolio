@@ -7,7 +7,7 @@ import Card from './BlogCard';
 
 const Blog = ({ info }) => {
     const data = useStaticQuery(graphql`
-        query MyQuery {
+        query BlogQuery {
             allContentfulBlogPost {
                 edges {
                     node {

@@ -4,8 +4,8 @@ import './BlogCard.css'
 
 const BlogCard = ({data}) => (
     <div className="content">
-        {data.allContentfulAbout.edges.map(edge=>(
-            <p>{edge.node.aboutMeContent.aboutMeContent}</p>
+        {data.allContentfulBlogPost.edges.map(edge=>(
+            <p>{edge.node.blogTitle}</p>
         ))}
     </div>
 )
