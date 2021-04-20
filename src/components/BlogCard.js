@@ -7,7 +7,7 @@ const BlogCard = ({data}) => (
         {data.allContentfulBlogPost.edges.map(edge=>(
             <div>
                 <h1>{edge.node.blogTitle}</h1>
-                <p>{edge.node.blogContent.raw}</p>
+                <p>{edge.node.blogContent.internal.content}</p>
             </div>          
         ))}
     </div>
