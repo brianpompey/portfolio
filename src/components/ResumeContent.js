@@ -7,7 +7,7 @@ const Content = ({data}) => (
         {data.allContentfulResume.edges.map(edge=>(
             <embed src={edge.node.resume.file.url} alt="brian pompey resume" width="500" height="500"/>
         ))}
-    </div>
+    </div> 
 )
 
 export default Content;
