@@ -27,7 +27,7 @@ const Blog = ({ info }) => {
     `)
 
     return (
-        <Layout>
+        <Layout> 
             <div className="BlogGroup">
                 
                 <div className="BlogInfo">
