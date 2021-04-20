@@ -18,7 +18,7 @@ const Blog = ({ info }) => {
                             }
                         }
                         blogContent {
-                        raw
+                            raw
                         }
                     }
                 }
