@@ -22,6 +22,7 @@ const Blog = ({ info }) => {
                                 content
                             }
                         }
+                        dateWritten(formatString: "")
                     }
                 }
             }
