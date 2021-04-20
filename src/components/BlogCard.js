@@ -5,7 +5,7 @@ import './BlogCard.css'
 const BlogCard = ({data}) => (
     <div className="content">
         {data.allContentfulBlogPost.edges.map(edge=>(
-            <div>
+            <div className="card">
                 <h1>{edge.node.blogTitle}</h1>
                 <p>{edge.node.blogContent.internal.content}</p>
             </div>          
