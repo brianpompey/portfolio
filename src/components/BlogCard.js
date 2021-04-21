@@ -1,5 +1,6 @@
 import React from 'react'
 import './BlogCard.css'
+import moment from 'moment'
 
 
 const BlogCard = ({data}) => (
@@ -7,7 +8,7 @@ const BlogCard = ({data}) => (
         {data.allContentfulBlogPost.edges.map(edge=>(
             <div className="Card">
                 <h1>{edge.node.blogTitle}</h1>
-                <p>{edge.node.dateWritten.toString()}</p>
+                <p>{moment(`${edge.node.dateWritten.toString()}`).format('MMMM Do YYYY')}</p>
                 <p>{edge.node.blogContent.internal.content}</p>
             </div>          
         ))}
