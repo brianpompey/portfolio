@@ -11,7 +11,7 @@ const BlogCard = ({data}) => (
                 <p>{moment(`${edge.node.dateWritten.toString()}`).format('MMMM Do YYYY')}</p>
                 <p>{edge.node.blogContent.internal.content}</p>
             </div>          
-        ))}
+        ))} 
     </div>
 )
 
