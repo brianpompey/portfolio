@@ -4,6 +4,7 @@ import moment from 'moment'
 
 
 const BlogContent = ({data}) => (
+    /* I'd love to have it be sortable and maybe even searchable */
     <div className="content">
         {data.allContentfulBlogPost.edges.map(edge=>(
             <div className="Card">
