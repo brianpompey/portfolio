@@ -3,7 +3,7 @@ import './Blog.css'
 import './layout'
 import Layout from './layout';
 import { useStaticQuery, graphql } from "gatsby";
-import Card from './BlogCard';
+import Content from './BlogContent';
 
 const Blog = ({ info }) => {
     const data = useStaticQuery(graphql`
@@ -34,7 +34,7 @@ const Blog = ({ info }) => {
             <div className="BlogGroup">
                 
                 <div className="BlogInfo">
-                    <main><Card data={data} /></main>
+                    <main><Content data={data} /></main>
                 </div>
                 
             </div>
