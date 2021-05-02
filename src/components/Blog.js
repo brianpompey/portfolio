@@ -36,7 +36,7 @@ const Blog = ({ info }) => {
             <div className="BlogStuff">
                 <div className="BlogInfo">
                     <main><Content data={data} /></main>
-                </div>
+                </div> 
                 
             </div>
         </Layout>
