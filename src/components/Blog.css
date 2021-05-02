@@ -14,6 +14,10 @@ body {
     background-position: center;
     position: relative;
   }
+
+  .BlogStuff {
+    background-color: blue;
+  }
   
   .BlogInfo {
     margin: 0 auto;

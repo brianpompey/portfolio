@@ -33,7 +33,7 @@ const Blog = ({ info }) => {
         <Layout> 
             <div className="BlogGroup">
             </div>
-            <div>
+            <div className="BlogStuff">
                 <div className="BlogInfo">
                     <main><Content data={data} /></main>
                 </div>
