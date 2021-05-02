@@ -87,7 +87,7 @@ const IndexPage = () => (
             <Card 
               title="SmokeShow"
               text="Ecommerce App built with ReactJS"
-              url="https://quizzical-goodall-e6e41a.netlify.app/"
+              url="https://sad-lamarr-d86031.netlify.app"
               image={ smoke } />
             
           </div>
