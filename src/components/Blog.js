@@ -32,7 +32,8 @@ const Blog = ({ info }) => {
     return (
         <Layout> 
             <div className="BlogGroup">
-                
+            </div>
+            <div>
                 <div className="BlogInfo">
                     <main><Content data={data} /></main>
                 </div>
