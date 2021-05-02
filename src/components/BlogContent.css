@@ -1,0 +1,7 @@
+.Cons {
+    width: 300px;
+    height:  200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
