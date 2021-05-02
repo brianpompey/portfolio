@@ -1,6 +1,16 @@
+.blog-content {
+    background-color: rgb(255, 210, 125);
+    width: 100%;
+}
 .Cons {
     width: 600px;
     height:  400px;
     position: relative;
     overflow: scroll;
+}
+
+.Cons h1 {
+    color: red;
+    font-size: 40px;
+    font-weight: 600;
 }
