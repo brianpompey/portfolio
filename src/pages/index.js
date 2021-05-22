@@ -69,13 +69,13 @@ const IndexPage = () => (
           <hr class="rounded" />
           <h3>Personal Projects</h3>
           <div className="CardGroup-2">
-            /**
+            {/**
             <Card 
               title="Twitter Clone"
               text="Rails project with a ReactJS Frontend"
               url="https://github.com/brianpompey/social_media_app"
               image={ twittercon } />
-              */
+            */}
             <Card 
               title="JS Calendar"
               text="Calendar and scheduler with VanillaJS"
