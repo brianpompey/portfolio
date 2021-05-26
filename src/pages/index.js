@@ -69,7 +69,7 @@ const IndexPage = () => (
           <hr class="rounded" />
           <h3>Personal Projects</h3>
           <div className="CardGroup-2">
-            {/**
+            /**
             <Card 
               title="Twitter Clone"
               text="Rails project with a ReactJS Frontend"
