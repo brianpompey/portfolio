@@ -1,6 +1,9 @@
 .blog-content {
     background-color: rgb(255, 210, 125);
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 .Cons {
     width: 600px;

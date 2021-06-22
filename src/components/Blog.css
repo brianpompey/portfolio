@@ -10,8 +10,6 @@ body {
   .BlogGroup {
     background: url('../images/manhattan-nyc-skyline-twilight-susan-candelario.jpg');
     height: 150px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     background-size: cover;
     background-position: center;
     position: relative;
