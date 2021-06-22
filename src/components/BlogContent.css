@@ -1,6 +1,5 @@
 .blog-content {
     background-color: rgb(255, 210, 125);
-    margin: 50px 40px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
