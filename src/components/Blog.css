@@ -17,12 +17,12 @@ body {
 
   .BlogStuff {
     background-color: rgb(212, 212, 212);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
   }
   
   .BlogInfo {
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     max-width: 500px;
     padding: 150px 50px;
     text-align: center;
