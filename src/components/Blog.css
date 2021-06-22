@@ -17,6 +17,8 @@ body {
 
   .BlogStuff {
     background-color: rgb(212, 212, 212);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
   
   .BlogInfo {
