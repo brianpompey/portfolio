@@ -3,11 +3,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-gap: 30px;
+    grid-gap: 40px;
 }
 .Cons {
-    width: 700px;
-    height:  500px;
+    width: 600px;
+    height:  400px;
     position: relative;
     overflow: scroll;
 }
