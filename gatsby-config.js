@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Brian Pompey Portfolio`,
-    description: 'Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.',
+    description: 'Personal Portfolio Website for Brian Pompey.',
     keywords: 'react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin',
     author: `@gatsbyjs`,
   },
