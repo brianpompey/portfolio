@@ -35,7 +35,7 @@ class Header extends React.Component {
           <Link className="Portrait" to="/"><img src={logo} width="30" alt="brian-logo" /></Link>
           <Link to="/about/">About Me</Link>
           <Link to="/resume/">My Resume</Link>
-          <Link to="/blogs/">Blog Posts</Link>
+          <a href="https://condescending-bassi-4fdffb.netlify.app/" target="_blank" rel="noreferrer">Blog Posts</a>
           <a href="https://github.com/brianpompey" target="_blank" rel="noreferrer">Github Page</a>
           <Link to="/contact/"><button>Hire ME</button></Link>
         </div>
