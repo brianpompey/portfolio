@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
   return (
     <>
         <Helmet
-            title={data.site.siteMetadata.title}
+            title={data.;site.siteMetadata.title}
             meta={[
               { name: 'description', content: data.site.siteMetadata.description },
               { name: 'keywords', content: data.site.siteMetadata.keywords },
