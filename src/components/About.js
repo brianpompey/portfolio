@@ -3,7 +3,7 @@ import './About.css'
 import './layout'
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from './layout';
-import Content from './AboutContent';
+import Content from './AboutConent';
 
 
 const About = ({ info }) => {
