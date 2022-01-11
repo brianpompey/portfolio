@@ -91,6 +91,16 @@ const IndexPage = () => (
               text="Ecommerce App built with ReactJS"
               url="https://mystifying-allen-e73123.netlify.app/"
               image={ smoke } />
+            <Card 
+              title="React Weather- Mobile"
+              text="Weather App built with React-Native"
+              url="https://github.com/brianpompey/mobileweather/"
+              image={ weather } />
+            <Card 
+              title="SmokeShow - Mobile"
+              text="Ecommerce App built with React-Native"
+              url="https://github.com/brianpompey/commerce-native/"
+              image={ smoke } />
             
           </div>
       </div>
